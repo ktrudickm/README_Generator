@@ -87,7 +87,7 @@ inquirer
 
     `;
 
-      fs.writeFile('README.md', output, (err) => {
+      fs.writeFile('README_gen.md', output, (err) => {
         err ? console.log(err): console.log("Generating README...");
     })
 })
