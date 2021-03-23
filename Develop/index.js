@@ -33,7 +33,14 @@ inquirer
       type: 'checkbox',
       message: 'What kind of license should your project have?',
       name: 'license',
+      choices: ['mit', 'apache-2.0', 'bsd', 'gpl'],
     },
+    {
+        type: 'checkbox',
+        message: 'What kind of technologies does your project use?',
+        choices: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+        name: 'tech',
+      },
     {
         type: 'input',
         message: 'What command should be run to install dependencies?',
@@ -56,36 +63,40 @@ inquirer
     },
   ])
   .then(response => {
-      const output = 
-    `# ${response.name}
+      const output = `
+# ${response.name}
 
-    Project Description &mdash; ${response.descrip}
+Project Description &mdash; ${response.descrip}
 
-    ## Required Licenses
+## Required Licenses
 
-    ${response.license}
+${response.license}
 
-    ## Commands
+## Required Technologies
 
-    ### Commands to run to install dependencies:
+${response.tech}
 
-    ${response.depend}
+## Commands
 
-    ### Tests
+### Commands to run to install dependencies:
 
-    Commands to run to run appropriate tests:
+${response.depend}
 
-    ${response.tests}
+### Tests
 
-    ## Repo Usage
+Commands to run to run appropriate tests:
 
-    ${response.usage}
+${response.tests}
 
-    ## Contributions
+## Repo Usage
 
-    ${response.contribution}
+${response.usage}
 
-    `;
+## Contributions
+
+${response.contribution}
+
+`;
 
       fs.writeFile('README_gen.md', output, (err) => {
         err ? console.log(err): console.log("Generating README...");
