@@ -1,9 +1,9 @@
 
-# fgsdf
+# fnkjf
 
 ## Project Description
 
-dfsd
+fkenrkjngve
 
 
 ## Table of Contents
@@ -19,8 +19,8 @@ dfsd
 
 ## Licenses
 
-  * Apache
-  ![License](https://img.shields.io/badge/license-Apache-yellow.svg)
+  * GPLv3  
+  ![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)
 
 
 ## Required Technologies
@@ -32,29 +32,29 @@ dfsd
 
 Commands to Run to Install Dependencies:
 
->fgwe
+>ejfnejnrv
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
->vewr
+>ejfbvkqek
 
 
 ## Usage
 
-evrv
+erjvbqe
 
 
 ## Contributions
 
-vew
+eqlrjvqe
 
 
 ## Questions
 
 For questions regarding the usage of this repo, github account name is:
 
-vfew
+eqrbjlv
 

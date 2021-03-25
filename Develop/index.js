@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 
 
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
@@ -30,10 +31,10 @@ inquirer
       name: 'descrip',
     },
     {
-      type: 'checkbox',
+      type: 'list',
       message: 'What kind of license should your project have?',
       name: 'license',
-      choices: ['MIT', 'Apache-2.0', 'BSD', 'GNU GPL', 'Boost', 'EPL'],
+      choices: ['MIT', 'Apache', 'BSD', 'GPLv3', 'Boost', 'EPL','none'],
     },
     {
         type: 'checkbox',
@@ -89,7 +90,8 @@ ${response.descrip}
 
 ## Licenses
 
-  * ${response.license}
+  * ${response.license}  
+  ${licenseIcon(response.license)}
 
 
 ## Required Technologies
@@ -134,6 +136,12 @@ ${response.github}
     })
 })
 
+function licenseIcon (license) {
+  console.log(license);
+  if (license !== "none"){
+    return `![License](https://img.shields.io/badge/license-${license}-yellow.svg)`;
+  }  
+}
 
 // How do I put the liscence images at top of readme and pick out the boxes checked for licenses
 
