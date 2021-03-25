@@ -78,23 +78,23 @@ ${response.descrip}
 
 ## Table of Contents
 
-  * Licenses
-  * Required Technologies
-  * Installation
-  * Tests
-  * Usage
-  * Contributions
-  * Questions
+  1. Licenses
+  2. Required Technologies
+  3. Installation
+  4. Tests
+  5. Usage
+  6. Contributions
+  7. Questions
 
 
 ## Licenses
 
-${response.license}
+  * ${response.license}
 
 
 ## Required Technologies
 
-${response.tech}
+  * ${response.tech}
 
 
 ## Installation

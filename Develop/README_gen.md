@@ -1,59 +1,67 @@
 
-# readewjkng
+# rwerg
 
 ## Project Description
 
-dlkngsfng
+gerg
 
 
 ## Table of Contents
 
-  * Licenses
-  * Required Technologies
-  * Installation
-  * Tests
-  * Usage
-  * Contributions
-  * Questions
+  1. Licenses
+  2. Required Technologies
+  3. Installation
+  4. Tests
+  5. Usage
+  6. Contributions
+  7. Questions
 
 
 ## Licenses
 
-GNU GPL,Boost
+  * Apache-2.0
+  * BSD
+  * GNU GPL
+  * undefined
+  * undefined
+  * undefined
 
 
 ## Required Technologies
 
-JS
+  * JS
+  * undefined
+  * undefined
+  * undefined
 
 
 ## Installation
 
 Commands to Run to Install Dependencies:
 
->fiferngf
+>dfgrwer
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
->dkjgnadf
+>gwe
 
 
 ## Usage
 
-fkadngkjndfg
+dfbwet
 
 
 ## Contributions
 
-dfkn;rgjnsa
+regerw
 
 
 ## Questions
 
 For questions regarding the usage of this repo, github account name is:
 
-ktrudickm
+dfd
 
