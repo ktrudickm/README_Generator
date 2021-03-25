@@ -1,9 +1,9 @@
 
-# fnkjf
+# wrgwe
 
 ## Project Description
 
-fkenrkjngve
+ewtgwe
 
 
 ## Table of Contents
@@ -19,42 +19,42 @@ fkenrkjngve
 
 ## Licenses
 
-  * GPLv3  
-  ![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)
+  BSD  
+  ![License](https://img.shields.io/badge/license-BSD-yellow.svg)
 
 
 ## Required Technologies
 
-  * 
+  JS
 
 
 ## Installation
 
 Commands to Run to Install Dependencies:
 
->ejfnejnrv
+>werg
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
->ejfbvkqek
+>werg
 
 
 ## Usage
 
-erjvbqe
+erg
 
 
 ## Contributions
 
-eqlrjvqe
+erg
 
 
 ## Questions
 
 For questions regarding the usage of this repo, github account name is:
 
-eqrbjlv
+erg
 
