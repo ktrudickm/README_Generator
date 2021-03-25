@@ -1,33 +1,59 @@
 
 # README Generator
 
-Project Description &mdash; generating a readme template for you prokect
+## Project Description
 
-## Required Licenses
+Application for quickly generating a README based on your project details
 
+
+## Table of Contents
+
+  * Licenses
+  * Required Technologies
+  * Installation
+  * Tests
+  * Usage
+  * Contributions
+  * Questions
+
+
+## Licenses
+
+MIT,Apache-2.0,BSD,GNU GPL
 
 
 ## Required Technologies
 
-HTML,CSS,JS
+HTML,CSS,JS,Bootstrap
 
-## Commands
 
-### Commands to run to install dependencies:
+## Installation
 
-install inquirer
+Commands to Run to Install Dependencies_
 
-### Tests
+npm init
+
+
+## Tests
 
 Commands to run to run appropriate tests:
 
 node index.js
 
-## Repo Usage
 
-have required technologies
+## Usage
+
+something
+
 
 ## Contributions
 
-git
+something about contributing
+
+
+## Questions
+
+For questions regarding the usage of this repo_
+
+ktrudickm
 

@@ -33,7 +33,7 @@ inquirer
       type: 'checkbox',
       message: 'What kind of license should your project have?',
       name: 'license',
-      choices: ['mit', 'apache-2.0', 'bsd', 'gpl'],
+      choices: ['MIT', 'Apache-2.0', 'BSD', 'GNU GPL', 'Boost', 'EPL'],
     },
     {
         type: 'checkbox',
@@ -61,40 +61,71 @@ inquirer
         message: 'What does the user need to know about contributing to the repo?',
         name: 'contribution',
     },
+    {
+      type: 'input',
+      message: 'What is your github username for users with questions on the usage of this repo?',
+      name: 'github',
+  },
   ])
   .then(response => {
       const output = `
 # ${response.name}
 
-Project Description &mdash; ${response.descrip}
+## Project Description
 
-## Required Licenses
+${response.descrip}
+
+
+## Table of Contents
+
+  * Licenses
+  * Required Technologies
+  * Installation
+  * Tests
+  * Usage
+  * Contributions
+  * Questions
+
+
+## Licenses
 
 ${response.license}
+
 
 ## Required Technologies
 
 ${response.tech}
 
-## Commands
 
-### Commands to run to install dependencies:
+## Installation
 
-${response.depend}
+Commands to Run to Install Dependencies:
 
-### Tests
+  ${response.depend}
+
+
+## Tests
 
 Commands to run to run appropriate tests:
 
-${response.tests}
+  ${response.tests}
 
-## Repo Usage
+
+## Usage
 
 ${response.usage}
+
 
 ## Contributions
 
 ${response.contribution}
+
+
+## Questions
+
+For questions regarding the usage of this repo, github account name is:
+
+  ${response.github}
 
 `;
 
@@ -102,3 +133,14 @@ ${response.contribution}
         err ? console.log(err): console.log("Generating README...");
     })
 })
+
+
+// How do I put the liscence images at top of readme and pick out the boxes checked for licenses
+
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+// [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+// [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+// [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+// [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+// [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+
