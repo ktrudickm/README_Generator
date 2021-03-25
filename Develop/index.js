@@ -101,14 +101,14 @@ ${response.tech}
 
 Commands to Run to Install Dependencies:
 
-  ${response.depend}
+>${response.depend}
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
-  ${response.tests}
+>${response.tests}
 
 
 ## Usage
@@ -125,7 +125,7 @@ ${response.contribution}
 
 For questions regarding the usage of this repo, github account name is:
 
-  ${response.github}
+${response.github}
 
 `;
 

@@ -1,9 +1,9 @@
 
-# README Generator
+# readewjkng
 
 ## Project Description
 
-Application for quickly generating a README based on your project details
+dlkngsfng
 
 
 ## Table of Contents
@@ -19,41 +19,41 @@ Application for quickly generating a README based on your project details
 
 ## Licenses
 
-MIT,Apache-2.0,BSD,GNU GPL
+GNU GPL,Boost
 
 
 ## Required Technologies
 
-HTML,CSS,JS,Bootstrap
+JS
 
 
 ## Installation
 
-Commands to Run to Install Dependencies_
+Commands to Run to Install Dependencies:
 
-npm init
+>fiferngf
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
-node index.js
+>dkjgnadf
 
 
 ## Usage
 
-something
+fkadngkjndfg
 
 
 ## Contributions
 
-something about contributing
+dfkn;rgjnsa
 
 
 ## Questions
 
-For questions regarding the usage of this repo_
+For questions regarding the usage of this repo, github account name is:
 
 ktrudickm
 
