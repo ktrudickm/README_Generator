@@ -1,9 +1,9 @@
 
-# wrgwe
+# Some Project Name
 
 ## Project Description
 
-ewtgwe
+This is a description of my project
 
 
 ## Table of Contents
@@ -19,8 +19,8 @@ ewtgwe
 
 ## Licenses
 
-  BSD  
-  ![License](https://img.shields.io/badge/license-BSD-yellow.svg)
+  GPLv3  
+  ![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)
 
 
 ## Required Technologies
@@ -32,29 +32,29 @@ ewtgwe
 
 Commands to Run to Install Dependencies:
 
->werg
+>some command
 
 
 ## Tests
 
 Commands to run to run appropriate tests:
 
->werg
+>some test
 
 
 ## Usage
 
-erg
+Something about the usage of this repository
 
 
 ## Contributions
 
-erg
+Something about contributing to this repository
 
 
 ## Questions
 
 For questions regarding the usage of this repo, github account name is:
 
-erg
+githubusername
 
